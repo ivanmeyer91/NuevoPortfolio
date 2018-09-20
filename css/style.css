@@ -6,7 +6,7 @@ header,
 }
 
 #intro {
-    background-image: url("img/ejemplos/fondo.png")no-repeat center center fixed;
+    background-image: url("..img/ejemplos/fondo.png")no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
