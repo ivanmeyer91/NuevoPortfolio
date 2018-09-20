@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>My portfolio</title>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="css/mdb.min.css" rel="stylesheet">
+<!-- Your custom styles (optional) -->
+<link href="css/style.css" rel="stylesheet">
+<!-- Your custom styles (optional) -->
+<link href="css/style.min.css" rel="stylesheet">
+
+
+
+<header>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+        <div class="container">
+
+
+
+            <!-- Boton toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Fin Boton toggler -->
+
+
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                <!-- Botones pagina -->
+                <ul class="navbar-nav mr-auto smooth-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="#intro">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="#aboutme">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="#examples">Examples</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <!-- Fin botones de pagina -->
+
+                <!-- Iconos sociales  -->
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" onclick="facebook()"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" onclick="twitter()"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" onclick="instagram()"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" onclick="github()"><i class="fa fa-github"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Fin iconos sociales  -->
+
+        </div>
+    </nav>
+    <!--/.Navbar-->
+
+    <!--Presentacion-->
+    <div id="intro" class="view">
+
+        <div class="mask rgba-black-strong">
+
+            <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+
+                <div class="row d-flex justify-content-center text-center">
+
+                    <div class="col-md-10">
+
+                        <!-- Heading -->
+                        <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">Mi portfolio</h2>
+
+                        <!-- Divider -->
+                        <hr class="hr-light">
+
+                        <!-- Description -->
+                        <h4 class="white-text my-4">Web Developer</h4>
+
+                       
+
+                        <div class="card testimonial-card">
+
+                            <!--Bacground color-->
+                            <div class="card-up indigo lighten-1">
+                            </div>
+    
+                            <!--Avatar-->
+                            <div class="avatar mx-auto white" id="perfil">
+                                <img id="perfil" src="/img/perfil.jpeg" class="rounded-circle" width="200px" height="200px" 
+                                onmouseover="this.src='../img/perfil2.jpeg'" onmouseout="this.src='../img/perfil.jpeg'">
+                            </div>
+    
+                            <div class="card-body">
+                                <!--Name-->
+                                <h4 class="card-title">Iván Meyer</h4>
+                                <hr>
+                                <!--Quotation-->
+                                <p>Curious, observator and lover of technology.</p>
+                            </div>
+
+
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!--Fin presentacion-->
+
+</header>
+
+<body>
+    <!-- Start your project here-->
+    <div style="height: 100vh" id="aboutme">
+        <div class="flex-center flex-column" id="aboutme">
+            <h1 class="animated fadeIn mb-4" >About me</h1>
+
+            <div class="container" id="acercademi">
+                <h5 class="animated fadeIn mb-3">
+                    I am a lover of the programming, I spend many hours personal to strengthen my development and experience. I love challenges, teamwork, research and continuous learning of the new technologies.
+                     I love the software in all its aspects (design, architecture, development).</h5>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row" id="examples">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+            <div class="view overlay z-depth-1-half">
+                <img src="img/ejemplos/localstorage.png" class="img-fluid" alt="">
+                <div class="mask rgba-white-slight"></div>
+            </div>
+
+            <h4 class="my-4 font-weight-bold" ><button type="menu" onclick="formulario()">Formulary</button></h4>
+            <p class="grey-text">
+                It is a local storage, where you can save messages, they will be stored indefinitely without a
+                 message top and the user wants to delete it, twitter style</p>
+
+        </div>
+        <!--Fin columna grid-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+            <div class="view overlay z-depth-1-half">
+                <img src="img/ejemplos/gastoSemanal.png" class="img-fluid" alt="">
+                <div class="mask rgba-white-slight"></div>
+            </div>
+
+            <h4 class="my-4 font-weight-bold">Weekly expenditure</h4>
+            <p class="grey-text">
+                Web weekly spending app, putting a maximum amount of spending in the week to use, if used 
+                more happens to be negative</p>
+
+        </div>
+        <!--Fin columna grid-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+            <div class="view overlay z-depth-1-half" id="apptiempo">
+                <img src="img/ejemplos/apptiempo2.jpg" class="img-fluid" alt="">
+                <div class="mask rgba-white-slight"></div>
+            </div>
+
+            <h4 class="my-4 font-weight-bold"><button type="menu" onclick="apptiempo()">App Weather</button></h4>
+            <p class="grey-text">
+                This application was made in android studio with web service and a weathermap appi. 
+                It is a query to the climate where you get back the temperature, 
+                the weather, humidity and an image of the time of that same place</p>
+
+        </div>
+        <!--Fin columna grid-->
+
+        <!-- Formulario de contacto -->
+        <div class="container" id="contact">
+            <div>
+                <h6 class="text-uppercase font-weight-bold">
+                    <strong>Contact</strong>
+                </h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>
+                    <i class="fa fa-home mr-3"></i> Rafaela, Santa Fe, Argentina</p>
+                <p>
+                    <i class="fa fa-envelope mr-3"></i> ivanmeyer1991@gmail.com</p>
+                <p>
+                    <i class="fa fa-phone mr-3"> 3492-606992</i> </p>
+                <p>
+
+            </div>
+            <!-- Fin formulario de contacto -->
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- /Start your project here-->
+
+        <!-- SCRIPTS -->
+        <!-- JQuery -->
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+        <script type="text/javascript" src="js/botones.js"></script>
+        <script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
+        <script type="text/javascript" src="js/textos.js"></script>
+        
+</body>
+
+</html>
