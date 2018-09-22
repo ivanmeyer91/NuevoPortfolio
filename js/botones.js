@@ -22,6 +22,6 @@ function formulario(){
     location.href = "https://ivanmeyer91.github.io/formulario.io/";
 };
 
-function apptiempo(){
-    location.href = "https://github.com/ivanmeyer91/appclima";
+function playList(){
+    location.href = "https://ivanmeyer91.github.io/Lista-de-reproduccion-en-JS/";
 }
