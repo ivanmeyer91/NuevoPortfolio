@@ -26,8 +26,8 @@
 
 
             <!-- Boton toggler -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
-                aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -53,6 +53,9 @@
                 </ul>
                 <!-- Fin botones de pagina -->
 
+
+
+
                 <!-- Iconos sociales  -->
                 <ul class="navbar-nav nav-flex-icons">
                     <li class="nav-item">
@@ -67,6 +70,21 @@
                     <li class="nav-item">
                         <a class="nav-link waves-effect waves-light" onclick="github()"><i class="fa fa-github"></i></a>
                     </li>
+
+
+                   
+
+                    <li>
+                        <a id="ciudad">Leeds</a>
+                        <img src="" alt="icon" id="icon">
+                        <a id="temp"></a>
+                        <a id="temp">&#176;</a>
+                    </li>
+                     
+
+
+
+
                 </ul>
 
             </div>
@@ -75,6 +93,7 @@
         </div>
     </nav>
     <!--/.Navbar-->
+
 
     <!--Presentacion-->
     <div id="intro" class="view">
@@ -96,20 +115,20 @@
                         <!-- Description -->
                         <h4 class="white-text my-0">Web Developer</h4>
 
-                       
+
 
                         <div class="card testimonial-card">
 
                             <!--Background color-->
                             <div class="card-up indigo lighten-1">
                             </div>
-    
+
                             <!--Avatar-->
                             <div class="avatar mx-auto white" id="perfil">
-                                <img id="perfil" src="img/ejemplos/perfil.jpeg" class="rounded-circle" width="200px" height="200px" 
-                                onmouseover="this.src='img/ejemplos/perfil2.jpeg'" onmouseout="this.src='img/ejemplos/perfil.jpeg'">
+                                <img id="perfil" src="img/ejemplos/perfil.jpeg" class="rounded-circle" width="200px"
+                                    height="200px" onmouseover="this.src='img/ejemplos/perfil2.jpeg'" onmouseout="this.src='img/ejemplos/perfil.jpeg'">
                             </div>
-    
+
                             <div class="card-body">
                                 <!--Name-->
                                 <h4 class="card-title">Iván Meyer</h4>
@@ -123,14 +142,14 @@
 
 
 
+                        </div>
+
                     </div>
 
                 </div>
 
             </div>
-
-        </div>
-        <!--Fin presentacion-->
+            <!--Fin presentacion-->
 
 </header>
 
@@ -138,12 +157,13 @@
     <!-- Start your project here-->
     <div style="height: 100vh" id="aboutme">
         <div class="flex-center flex-column" id="aboutme">
-            <h1 class="animated fadeIn mb-4" >About me</h1>
+            <h1 class="animated fadeIn mb-4">About me</h1>
 
             <div class="container" id="acercademi">
                 <h5 class="animated fadeIn mb-3">
-                    I am a lover of the programming, I spend many hours personal to strengthen my development and experience. I love challenges, teamwork, research and continuous learning of the new technologies.
-                     I love the software in all its aspects (design, architecture, development).</h5>
+                    I am a lover of the programming, I spend many hours personal to strengthen my development and
+                    experience. I love challenges, teamwork, research and continuous learning of the new technologies.
+                    I love the software in all its aspects (design, architecture, development).</h5>
             </div>
 
         </div>
@@ -159,10 +179,10 @@
                 <div class="mask rgba-white-slight"></div>
             </div>
 
-            <h4 class="my-4 font-weight-bold" ><button type="menu" class="btn btn-danger" onclick="formulario()">Formulary</button></h4>
+            <h4 class="my-4 font-weight-bold"><button type="menu" class="btn btn-danger" onclick="formulario()">Formulary</button></h4>
             <p class="black-text">
                 It is a local storage, where you can save messages, they will be stored indefinitely without a
-                 message top and the user wants to delete it, twitter style</p>
+                message top and the user wants to delete it, twitter style</p>
 
         </div>
         <!--Fin columna grid-->
@@ -175,7 +195,8 @@
                 <div class="mask rgba-white-slight"></div>
             </div>
 
-            <h4 class="my-4 font-weight-bold" id="playList"><button type="" class="btn btn-danger" onclick="playMusic()">Play music!</button></h4>
+            <h4 class="my-4 font-weight-bold" id="playList"><button type="" class="btn btn-danger" onclick="playMusic()">Play
+                    music!</button></h4>
             <p class="black-text">
                 Is a batery! With some piece of loop, play and fun!
 
@@ -190,7 +211,8 @@
                 <div class="mask rgba-white-slight"></div>
             </div>
 
-            <h4 class="my-4 font-weight-bold" id="playList"><button type="" class="btn btn-danger" onclick="playList()">Play me!</button></h4>
+            <h4 class="my-4 font-weight-bold" id="playList"><button type="" class="btn btn-danger" onclick="playList()">Play
+                    me!</button></h4>
             <p class="black-text">
                 i have a little piece of play list on js, this list is music i listen, i wish do you like.</p>
 
@@ -246,7 +268,8 @@
         <script type="text/javascript" src="js/botones.js"></script>
         <script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
         <script type="text/javascript" src="js/textos.js"></script>
-        
+        <script type="text/javascript" src="js/api.js"></script>
+
 </body>
 
 </html>
