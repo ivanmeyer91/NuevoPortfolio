@@ -33,3 +33,7 @@ function playMusic(){
 function tupeso(){
     location.href = "https://tu-peso.netlify.com/";
 }
+
+function versus(){
+    location.href = "https://versusrock.netlify.com/#styles";
+}
