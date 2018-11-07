@@ -38,4 +38,8 @@ header,
  #ciudad, #temp{
     color: #ffffff;
   }
+
+  #center{
+    align-content: center;
+  }
  

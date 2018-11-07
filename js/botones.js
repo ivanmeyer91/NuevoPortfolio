@@ -29,3 +29,7 @@ function playList(){
 function playMusic(){
     location.href = "https://bateria.netlify.com/";
 }
+
+function tupeso(){
+    location.href = "https://tu-peso.netlify.com/";
+}
