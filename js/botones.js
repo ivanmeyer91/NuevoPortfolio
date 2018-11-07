@@ -25,3 +25,7 @@ function formulario(){
 function playList(){
     location.href = "https://ivanmeyer91.github.io/Lista-de-reproduccion-en-JS/";
 }
+
+function playMusic(){
+    location.href = "https://bateria.netlify.com/";
+}
