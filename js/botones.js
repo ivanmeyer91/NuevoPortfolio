@@ -37,3 +37,7 @@ function tupeso(){
 function versus(){
     location.href = "https://versusrock.netlify.com/#styles";
 }
+
+function cotizador(){
+    location.href = "https://cotizadorprestamo.netlify.com/";
+}
