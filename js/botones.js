@@ -41,3 +41,9 @@ function versus(){
 function cotizador(){
     location.href = "https://cotizadorprestamo.netlify.com/";
 }
+
+function wesbos(){
+    location.href = "https://wesbos.com/"; 
+}
+
+document.getElementById("wesbos").style.color ="blue";

@@ -9,5 +9,9 @@ body
     text-align: center;
     padding: 2rem;
    }
-
-
+#wesbos{
+    background-color: transparent;
+}
+#ejemplos{
+    padding: 2rem;
+  }
